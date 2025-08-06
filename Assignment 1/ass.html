@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <style>
+                .head1 {
+                    color: blueviolet;
+                    font-size:30px;
+                    margin-top: 50px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                .head2 {
+                    color: black;
+                    font-size: small;
+                    margin-top: 0;
+                    margin-bottom: 15px;
+                    text-align: center;
+                }
+                body{
+                    background-size: contain;
+                    margin: 0;
+                    background-position: center;
+                }
+                .menu {
+                    display: flex;
+                    color: black;
+                    background-color: blueviolet;
+                    padding: 5px;
+                    margin-right: 10px;
+                }
+                .menu a {
+                    text-decoration: none;
+                    padding: 14px 15px ;
+                    text-align: center;
+                    font-size: 20px;
+
+                }
+                .menu .login {
+                    position: absolute;  
+                    right: 0px;               
+                }
+                .menu a:hover {
+                    text-decoration: underline;
+                    color: white;
+                }
+                .main {
+                    color: blueviolet;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    padding: 20px;
+                    justify-content: center;
+                }
+                .section {
+                    background-color: white;
+                    margin: 0 1px;
+                    padding: 15px;
+                    min-width: 250px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                } 
+                .section h3 {
+                    text-align: center;
+                }
+                .section.blog {
+                    flex: 1;
+                }
+                .section.main {
+                    flex: 3;
+                }
+                .section.news {
+                    flex: 1;
+                }
+
+                footer {
+                    color: white;
+                    width: 100%;
+                    bottom: 0px;
+                    background-color: black;
+                    position: absolute; 
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                <div class="head1">
+                    YASMIN DESIGN
+                </div>
+                <div class="head2">
+                        Unleash your elegances
+                </div>
+            </header>
+            <nav class="menu">
+                <a href="#">Home</a>
+                <a href="#">News</a>
+                <a href="#">Notifications</a>
+                <a class="login" href="#">LOGIN</a>
+            </nav>
+            <div class="main">
+                 <div class="section blog">
+                    <h3>BLOG</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit sequi tempora officia laboriosam ipsam quas. Ut ad obcaecati ullam eum doloremque. Ad saepe suscipit repellat. Quia quod in iusto inventore commodi nulla voluptates dicta quibusdam nam odio voluptatibus, dolor architecto error officia tempore consequatur sapiente, sint pariatur veritatis tenetur quasi facilis, quos nisi exercitationem. At nostrum veniam est! Ullam quaerat enim adipisci fugit doloribus.</p>
+                    </div>
+                <div class="section main">
+                    <h3>MAIN CONTENT</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam mollitia a assumenda provident doloribus sed tempore repellendus inventore id. Amet dolor enim impedit non nihil architecto expedita labore quisquam, magnam esse consequatur quo libero eaque perspiciatis dolores at vitae nobis quaerat natus dicta iusto. Labore minima atque optio voluptates doloribus ut non cupiditate neque in maxime animi quidem accusantium modi laudantium, distinctio ex. Recusandae nulla natus cumque animi in iusto vitae, quo iure vero omnis sequi, tempora quas qui facilis impedit adipisci sapiente? Rem at sunt nam incidunt sint quasi deleniti expedita. Maxime quo obcaecati porro, incidunt repudiandae quasi ullam?</p>
+                </div>
+                 <div class="section news">
+                    <h3>NEWS</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore obcaecati cum magni! Facere optio laboriosam mollitia itaque modi ex sapiente? Atque placeat, inventore harum aut accusantium adipisci nesciunt perferendis distinctio earum totam veniam illum velit a impedit itaque quo? </p>
+                </div>
+            </div>
+            <footer>
+                &copy; IbraheemRodiyat2025
+            </footer>
+        </body>
+    </html>

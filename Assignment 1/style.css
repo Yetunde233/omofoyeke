@@ -1,0 +1,97 @@
+h1{
+    color: aqua;
+
+    background-color: black;
+}
+.heading { 
+    background-color:brown;
+}
+#head { 
+    background-color: rgba(120, 167, 209, 0.5);
+    background-image: url(yetunde.JPG);
+}
+h1, ul{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: circle;
+    
+}
+h4{
+    border: 5px dotted #ff9080;
+    /*border-style: solid;
+    border-color: blue;
+    border-width: 5px ;
+    border-radius: 5px;*/
+    margin: 5px 10px 5px 10px;
+    padding: 20px; 
+    width: 100px;
+    height: 100px;
+    text-align: center;
+
+}
+/*a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 20px;
+}*/
+div p{
+}
+div > p {
+
+}
+
+div + p{
+
+}
+div ~ p {
+
+}
+/*a:link {
+    color: #ff9080;
+}
+/*a:visited {
+    color: aquamarine;
+
+}*/
+/*a:hover {
+    text-decoration: underline;
+    color: black;
+}*/
+p::first-letter {
+    color: plum;
+}
+p::first-line {
+    color: black;
+}
+/*div.static {
+    position: sticky;
+    border: 3px solid green;
+    top: 0px;
+    width: 500px;
+}*/
+img.right {
+    float: none;
+    clear: both;
+}
+ul.nav{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+/*li {
+    display: inline-block;
+}*/
+li > a {
+    /* border: 6px solid black;*/
+    display: inline-block;
+    color: rgba(120, 167, 209, 0.5);
+    border-radius: 5px;
+    width: 65px;
+    text-decoration: none;
+}
+li a[tarrget= "_blank"] {
+    background-color: #ff23ed;
+}
